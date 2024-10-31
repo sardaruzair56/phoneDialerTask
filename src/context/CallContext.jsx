@@ -11,7 +11,7 @@ export const CallProvider = ({ children }) => {
       id: Date.now(),
       number,
       time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-      missed: false, // Can add logic to set missed if needed
+      missed: false, 
     };
     setCallLog((prevLog) => [...prevLog, newLog]);
   };

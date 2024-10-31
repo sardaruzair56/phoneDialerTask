@@ -1,4 +1,4 @@
-// src/components/Dialer.js
+
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCallContext } from '../context/CallContext';
