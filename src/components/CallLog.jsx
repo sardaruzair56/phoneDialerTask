@@ -7,7 +7,7 @@ const CallLog = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col h-full bg-gray-900 text-white p-4">
+    <div className="flex flex-col h-screen w-full bg-gray-900 text-white p-4">
       <div className="flex justify-center items-center mb-6">
         <h2 className="text-3xl font-semibold">All Call Logs</h2>
       </div>
